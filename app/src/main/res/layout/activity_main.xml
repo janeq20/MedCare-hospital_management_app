@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="verdana"
+        android:text="MedCare"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Fight the fight, Find the Cure!"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="200dp"
+
+        android:layout_marginTop="50dp"
+
+        android:padding="25dp"
+
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/img_1" />
+
+    <ProgressBar
+
+        android:layout_width="220dp"
+
+        android:layout_height="10dp"
+
+        android:layout_gravity="center_horizontal"
+
+        style="?android:attr/progressBarStyleHorizontal"
+
+        android:max="100"
+
+        android:indeterminate="true"
+
+        android:progress="0"
+
+        android:layout_marginTop="100dp"
+
+        />
+</LinearLayout>

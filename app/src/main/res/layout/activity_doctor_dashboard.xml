@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".DoctorDashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Doctor Dashboard"
+        android:textAlignment="center"
+        android:textSize="34sp"
+
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/img_1" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="593dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prebutton"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:gravity="center"
+            android:background="#2AF598"
+            android:text="Write Prescription"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/manageappiont"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="#2AF598"
+            android:gravity="center"
+            android:text="Manage Appointments"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/viewpres"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:background="#2AF598"
+            android:text="View Prescriptions Given"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="100dp"
+            android:text="Logout" />
+    </LinearLayout>
+
+
+</LinearLayout>
